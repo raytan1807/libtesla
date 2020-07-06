@@ -3593,7 +3593,7 @@ namespace tsl::cfg {
     u16 LayerPosY   = 0;
     u16 FramebufferWidth  = 0;
     u16 FramebufferHeight = 0;
-    u64 launchCombo = KEY_L | KEY_DDOWN | KEY_RSTICK;
+    u64 launchCombo = KEY_L | KEY_R | KEY_DDOWN;
 }
 
 extern "C" {
